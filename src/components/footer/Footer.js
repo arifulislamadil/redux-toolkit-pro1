@@ -1,11 +1,11 @@
 import React from 'react';
-import '../footer/footer.css'
+import './footer.css'
 
 const Footer = () => {
     return (
         <div className='footer'>
-            <p class="text-muted text-center">
-                Made with ♥ by 0 Prime
+            <p className="text-muted text-center">
+                Made with ♥ by Adil Arif
             </p>
         </div>
     );

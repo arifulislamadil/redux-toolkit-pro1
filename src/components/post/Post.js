@@ -12,7 +12,7 @@ const Post = () => {
 
     return (
         <div>
-           <div>
+           <div className='post-main'>
            {
                 posts.map(post =>
                     <div className='single-grid'>

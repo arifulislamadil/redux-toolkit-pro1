@@ -11,6 +11,7 @@ export const fetchPost = createAsyncThunk( "posts/fetchPost", async () => {
     export const fetchUsers = createAsyncThunk("users/fetchUsers",async()=>{
         const response = await axios("https://jsonplaceholder.typicode.com/users")
         return response.data
+
     })
 
 const postSlice =createSlice({
